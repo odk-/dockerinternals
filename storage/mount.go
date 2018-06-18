@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"dockerint/registry"
+	"github.com/odk-/dockerinternals/registry"
 )
 
 /*

@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"dockerint/registry"
+	"github.com/odk-/dockerinternals/registry"
 
 	"golang.org/x/sys/unix"
 )

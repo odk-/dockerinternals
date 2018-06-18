@@ -6,10 +6,10 @@ import (
 	"os"
 	"syscall"
 
-	"dockerint/container"
-	"dockerint/network"
-	"dockerint/registry"
-	"dockerint/storage"
+	"github.com/odk-/dockerinternals/container"
+	"github.com/odk-/dockerinternals/network"
+	"github.com/odk-/dockerinternals/registry"
+	"github.com/odk-/dockerinternals/storage"
 
 	"github.com/docker/docker/pkg/reexec"
 )

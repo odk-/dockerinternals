@@ -5,8 +5,8 @@ import (
 	"os/exec"
 	"syscall"
 
-	"dockerint/registry"
-	"dockerint/storage"
+	"github.com/odk-/dockerinternals/registry"
+	"github.com/odk-/dockerinternals/storage"
 
 	"github.com/docker/docker/pkg/reexec"
 )

@@ -1,12 +1,13 @@
 package main
 
 import (
-	"dockerint/network"
 	"fmt"
 	"os"
 	"os/exec"
 	"path/filepath"
 	"syscall"
+
+	"github.com/odk-/dockerinternals/network"
 )
 
 // running inside namespace before our command
